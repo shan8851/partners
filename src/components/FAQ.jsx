@@ -17,12 +17,12 @@ export const Faq = () => {
             together.
           </Answer>
           <Answer>
-            Our commisions are one of the most attractive in the industry at 10%
-            (excluding VAT) on every order you take through our platform. there
-            is also a 50p (excluding VAT) admin charge for all orders on the
-            platform, which is paid for by the customer. A simple example of our
-            fees would be if you were to receive an order of £20, our commision
-            would be £2.40 (INCLUDING VAT)
+            Our commisions are one of the most attractive in the industry at
+            just 10% (excluding VAT) on orders made through our platform. There
+            is also a 50p (excluding VAT) admin charge for all orders, which is
+            paid for by the customer. A simple example of our fees would be if
+            you were to receive an order of £20, our commision would be £2.40
+            (INCLUDING VAT)
           </Answer>
         </DropdownSection>
         <DropdownSection title="How long does it take to get on the Let's Eat platform?">
@@ -35,7 +35,7 @@ export const Faq = () => {
         <DropdownSection title="Is there a long term commitment?">
           <Answer>
             Absolutely not! We want to work with partners who see the value in
-            what we bring and in turn want to work for us. It's for that reason
+            what we bring and in turn want to work with us. It's for that reason
             that we use a simple 30 day rolling contract model. In other words
             if you are happy just do nothing and you will be able to continue
             working with us, if for whatever reason you would like to stop our
@@ -46,15 +46,17 @@ export const Faq = () => {
           <Answer>
             Unfortunately not. We are currently only partnering with
             restauraunts who have their own drivers. This enables us to focus
-            all our time on energy in improving our product and running great
+            all our time and energy on improving our product and running great
             marketing campaigns.
           </Answer>
         </DropdownSection>
         <DropdownSection title="I want to join Let's Eat, but I run a van/unit am I still able to?">
           <Answer>
             Maybe. This would depend on what specific licences and regulations
-            in place. Oftentimes you will have and then it is no problem, if not
-            we can try assist you in getting the correct licences needed.
+            you have in place. More often that businesses like yours do have
+            everything they need to get set up, so please do reach out to us. If
+            there is anything missing that we need, we will do our best to
+            advise you on how best to proceed.
           </Answer>
         </DropdownSection>
       </Container>

@@ -11,8 +11,8 @@ export const JoinUsBlock = () => {
           Let's Eat - the food app that gives back. We are always on the lookout
           for fantastic new partners. Do you have a great restaurant with
           amazing food? If so we want to work with you. What do we bring to the
-          table? Cutting edge sofware, slick marketing and of course a boatload
-          of customers.
+          table? Cutting edge sofware, slick marketing and of course we put your
+          food in front of a lot of new customers.
         </HeaderText>
       </HeadingContent>
       <ImageWrapper>

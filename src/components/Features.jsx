@@ -14,8 +14,8 @@ export const Features = () => {
             Let's Eat has invested time and money into creating cutting edge
             software that will run seamlessly on any device. Your customers will
             love it. They'll save time and money with our unique rewards scheme
-            and the ability to repeat orders with saved payment and delivery
-            information.
+            - Tasty Points. Seamless repeat ordering and multiple saved
+            locations for delivery - what's not to like?
           </ItemText>
         </Item>
         <Item>
@@ -24,9 +24,9 @@ export const Features = () => {
           <ItemText>
             We have worked hard to create a brand, are constantly iterating over
             our product and continiously investing in marketing - both digital
-            and traditional. What does this mean for you? It means we will put
-            your restaurant in front of new customers all the time aka more
-            orders.
+            and traditional. What does this mean for you? It means your
+            restaurant will be seen by a lot of new customers - driving up
+            orders and in turn revenue.
           </ItemText>
         </Item>
         <Item>
