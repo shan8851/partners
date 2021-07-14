@@ -48,6 +48,7 @@ const HeadingContent = styled.div`
   justify-content: center;
   width: 50%;
   margin-left: 64px;
+  color: ${colors.blue};
 
   @media (max-width: ${breakpoints.tablet}) {
     width: 100%;
