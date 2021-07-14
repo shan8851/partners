@@ -28,7 +28,7 @@ const HeaderBar = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 150px;
+  height: 100px;
   width: auto;
   margin: 20px auto 0 auto;
   @media (max-width: ${breakpoints.tablet}) {

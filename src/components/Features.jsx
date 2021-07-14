@@ -14,7 +14,7 @@ export const Features = () => {
             Let's Eat has invested time and money into creating cutting edge
             software that will run seamlessly on any device. Your customers will
             love it. They'll save time and money with our unique rewards scheme
-            andthe ability to repeat orders with saved payment and delivery
+            and the ability to repeat orders with saved payment and delivery
             information.
           </ItemText>
         </Item>

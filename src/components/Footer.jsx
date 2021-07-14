@@ -79,4 +79,8 @@ const SocialBlock = styled.p`
 const SocialLink = styled.a`
   color: ${colors.yellow};
   margin: 0;
+
+  :hover {
+    color: ${colors.green};
+  }
 `;

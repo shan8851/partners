@@ -10,7 +10,7 @@ export const Faq = () => {
         <DropdownSection title="What charges can I expect to pay to join Let's Eat?">
           <Answer>
             We are happy to say that Let's Eat offers completely FREE
-            activation, which menas there is no charge for getting set up, we
+            activation, which means there is no charge for getting set up, we
             will send you a tablet and thermal printer at no cost to you! The
             only thing to note here is that the equipment is the property of
             Let's Eat, so it would need to be returned should we stop working

@@ -103,7 +103,7 @@ const FormInput = styled.input`
   box-shadow: 5px 5px 9px -1px rgba(41, 50, 80, 0.64);
   color: ${colors.blue};
 
-  &::placeholder {
+  :placeholder {
     color: ${colors.blue};
   }
 
@@ -122,14 +122,18 @@ const Button = styled.button`
   background-color: ${colors.blue};
   color: ${colors.yellow};
   border: 1px solid ${colors.blue};
-  border-radius: 32px;
   padding: 16px 32px;
   font-size: 24px;
   margin-top: 16px;
   cursor: pointer;
+  box-shadow: 5px 5px 9px -1px rgba(41, 50, 80, 0.64);
 
   @media (max-width: ${breakpoints.mobile}) {
     font-size: 18px;
+  }
+
+  :hover {
+    color: ${colors.green};
   }
 `;
 
