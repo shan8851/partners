@@ -34,6 +34,7 @@ const SectionContainer = styled.div`
 const Title = styled.h4`
   font-size: 17px;
   color: ${colors.blue};
+  width: 93%;
   @media (max-width: ${breakpoints.mobile}) {
     font-size: 15px;
   }

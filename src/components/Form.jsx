@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { breakpoints, colors } from "../helpers/globals";
-
+import Chill from "../assets/chill.png";
 export const Form = () => {
   const [success, setSuccess] = useState(false);
 
@@ -13,9 +13,13 @@ export const Form = () => {
 
   if (success)
     return (
-      <Container>
-        <p>Thanks for your message</p>
-      </Container>
+      <SuccessContainer>
+        <SuccessTitle>Thanks for your message</SuccessTitle>
+        <SuccessImage src={Chill} />
+        <SuccessText>
+          Put your feet up, we will be in touch shortly.
+        </SuccessText>
+      </SuccessContainer>
     );
 
   return (
@@ -126,5 +130,48 @@ const Button = styled.button`
 
   @media (max-width: ${breakpoints.mobile}) {
     font-size: 18px;
+  }
+`;
+
+const SuccessContainer = styled.div`
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 32px 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    padding: 0 16px 32px 16px;
+  }
+`;
+
+const SuccessImage = styled.img`
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 16px 0;
+
+  @media (max-width: ${breakpoints.mobile}) {
+    margin: 8px 0;
+  }
+`;
+
+const SuccessTitle = styled.h5`
+  font-size: 24px;
+  color: ${colors.blue};
+
+  @media (max-width: ${breakpoints.mobile}) {
+    font-size: 20px;
+  }
+`;
+
+const SuccessText = styled.p`
+  font-size: 20px;
+  color: ${colors.blue};
+  text-align: center;
+
+  @media (max-width: ${breakpoints.mobile}) {
+    font-size: 15px;
   }
 `;
