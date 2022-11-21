@@ -44,10 +44,7 @@ export const Faq = () => {
         </DropdownSection>
         <DropdownSection title="Can I join Let's Eat without any delivery drivers?">
           <Answer>
-            Unfortunately not. We are currently only partnering with
-            restauraunts who have their own drivers. This enables us to focus
-            all our time and energy on improving our product and running great
-            marketing campaigns.
+            Absolutely. We work with an on demand delivery partner - Stuart - and in most instances Stuart can manage your deliveries. Please reach out to us directly to discuss this further.
           </Answer>
         </DropdownSection>
         <DropdownSection title="I want to join Let's Eat, but I run a van/unit am I still able to?">
